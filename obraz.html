@@ -1,0 +1,45 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function okno_zamknij_slawski() 
+ {
+ window.close()
+ }
+ </script>
+ </head>
+<body>
+- Język JavaScript został opracowany w 1995 roku <br>
+- JavaScript jest językiem skryptowym – to znaczy interpretowanym. Nie musi <br>
+zostać skompilowany do kodu maszynowego, aby można było zobaczyć efekty jego działania. <br>
+- Kod JavaScript jest wykonywany przez komputer – klient.<br>
+- Javascript jest bezpieczny bo, uniemożliwienia odczyt i zapis na dysku oraz dostępu do innych okien lub domen przeglądarki.<br>
+- Javascript jest językiem obiektowym bo umożliwia stosowanie obiektowych metod programowania.<br> <br><br>
+
+&lsaquo;input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')"&rsaquo;  <br>
+Kod ten wyświetli przycisk który po kliknięciu otworzy wcześniej zadeklarowaną w funkcji WinOpen stronę <br> <br>
+
+<textarea name="nazwa" cols="115" rows="1" readonly>
+window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200"); 
+</textarea> <br>  <br>
+
+toolbar=no - ukrywa pasek narzędzi <br>
+directories=no - ukrywa przyciski katalogów <br>
+menubar=no - ukrywa menu przeglądarki<br>
+height=280 - ustawia wysokość na 280<br>
+width=160 - ustawia szerokość na 160<br>
+top=200 - zmienia położenie okna względem góry ekranu o 200px<br>
+left=200 - zmienia położenie okna względem lewej strony ekranu o 200px<br><br>
+
+
+window.close() - zamyka strone <br><br>
+
+
+
+
+
+
+
+ <img src="obraz1.gif" /> <br> <br>
+ <input type="button" value="zamknij okno" onclick="okno_zamknij_slawski()"/>
+</body>
+</html>
